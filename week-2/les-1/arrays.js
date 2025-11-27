@@ -90,6 +90,12 @@ console.log('Double numbers', doubleNumbers)
 
 console.log('Double Numbers as String', doubleNumbers.join('|'))
 
+colors.push("Eind") // Eind.
+colors.pop() // Eind verwijderen.
+colors.unshift("Begin van array toevoegen");
+colors.shift() // Begin verwijderen.
+
+
 const numbersWithoutEight = doubleNumbers.filter((value) => {
     return value !== 8
 })
@@ -133,3 +139,12 @@ const totalPrice = products.reduce((prevValue, currentValue) => {
 })
 
 console.log(totalPrice)
+
+const num = [4, 8, 3, 6,]
+num.sort((a, b) => {
+    return -1
+})
+
+console.log(num)
+
+
