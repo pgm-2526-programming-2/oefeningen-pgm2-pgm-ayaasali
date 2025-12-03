@@ -13,5 +13,5 @@ function getMatrixValue(matrix, row, col) {
 }
 
 
-getMatrixValue(matrix);
-getMatrixValue(matrix)
+getMatrixValue(matrix, 0);
+getMatrixValue(matrix, 1)

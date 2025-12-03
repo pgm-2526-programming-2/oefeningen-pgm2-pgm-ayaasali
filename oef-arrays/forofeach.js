@@ -7,6 +7,6 @@ for (const number of numbers) {
 
 const colors = ['red', 'blue', 'green', 'yellow'];
 
-colors.forEach((color) => {
-    console.log(color)
+colors.forEach((color, hallo) => {
+    console.log(` Hallo ${hallo} : ${color}`)
 })

@@ -4,4 +4,6 @@ let shoppingCart = fruits
 shoppingCart.push('Banana')
 
 
-alert()
+alert(fruits.length) //4
+
+console.log(fruits)
